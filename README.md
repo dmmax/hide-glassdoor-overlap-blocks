@@ -7,9 +7,9 @@ Using the browser's inspector I can write a simple script that can hide the box 
 
 1. Install the [Custom Style Script extension](https://chrome.google.com/webstore/detail/custom-style-script/ecjfaoeopefafjpdgnfcjnhinpbldjij)
 2. Configure a new script in the extension
-  1. Set URL: `https://www.glassdoor.com`
-  2. Set Script Link: https://github.com/dmmax/hide-glassdoor-overlap-blocks/blob/main/hide-blocks-on-load.js. Or you can add the code manually 
-  3. Click on the "Plus" button
+  - Set URL: `https://www.glassdoor.com`
+  -  Set Script Link: https://github.com/dmmax/hide-glassdoor-overlap-blocks/blob/main/hide-blocks-on-load.js. Or you can add the code manually using the code from the [file](hide-blocks-on-load.js)
+  -  Click on the "Plus" button
 3. Go to the glassdoor, you should not see the overlapping box anymore
 
 ## Video how to configure the extension 
