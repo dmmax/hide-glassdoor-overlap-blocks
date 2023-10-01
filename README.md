@@ -18,4 +18,4 @@ https://github.com/dmmax/hide-glassdoor-overlap-blocks/assets/6257813/c2f9bc83-e
 
 ## Note
 
-If at one point they will change 
+If at one point, the code does not work anymore - most likely the Glassdoor developers changed the DOM structure. Feel free to contribute a solution or create an issue and I will fix it.
