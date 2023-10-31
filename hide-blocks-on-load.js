@@ -1,9 +1,9 @@
-window.addEventListener(
-  "load", 
-  () => {
-    document.getElementById("HardsellOverlay").remove();
-    var bodyVar = document.body;
-    bodyVar.style.overflow = null;
-    bodyVar.style.position = null;
-  }, 
-  false);
+$(document).ready(function() {
+  $("#ContentWallHardsell").remove();
+  window.onscroll = null;
+  $("body").css({
+      "height": "unset",
+      "overflow": "unset",
+      "position": "unset"
+  });
+});
