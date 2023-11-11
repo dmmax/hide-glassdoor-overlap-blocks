@@ -5,16 +5,17 @@ Using the browser's inspector I can write a simple script that can hide the box 
 
 ## Solution
 
-1. Install the [Custom Style Script extension](https://chrome.google.com/webstore/detail/custom-style-script/ecjfaoeopefafjpdgnfcjnhinpbldjij)
-2. Configure a new script in the extension
-  - Set URL: `https://www.glassdoor.com`
-  - Set Script Link: https://github.com/dmmax/hide-glassdoor-overlap-blocks/blob/main/hide-blocks-on-load.js. Or you can add the code manually using the content from the [file](hide-blocks-on-load.js)
-  - Click on the "Plus" button
+1. Install the Google Chrome extension [User JavaScript and CSS](https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)
+2. Add a new site (rule) in the extension
+  - Set URL: `https://www.glassdoor.*/`
+  - Copy the script from the [JS file](https://raw.githubusercontent.com/dmmax/hide-glassdoor-overlap-blocks/main/hide-blocks-on-load.js)
+  - Paste the copied script to the left text box "JS"
+  - Click on the button "Save" or use the combination `Ctrl/Cmd + S`
 3. Go to the glassdoor, you should not see the overlapping box anymore
 
 ## Video how to configure the extension 
 
-https://github.com/dmmax/hide-glassdoor-overlap-blocks/assets/6257813/c2f9bc83-e97e-47c1-bf45-eff57d93c6da
+https://github.com/dmmax/hide-glassdoor-overlap-blocks/assets/6257813/6556e126-8c4b-4f17-b2c1-1ba836dd051a
 
 ## Note/Contribution
 
